@@ -13,6 +13,13 @@
     ttl: 300
     type: TXT
     value: "resend-domain-verification=7945aff0845879daa0c19abd657ad13c"
+  - octodns:
+      cloudflare:
+        auto-ttl: true
+        priority: 10
+    ttl: 300
+    type: MX
+    value: inbound-smtp.ap-northeast-1.amazonaws.com
 _github-pages-challenge-linuskang:
   octodns:
     cloudflare:
@@ -34,6 +41,34 @@ forms:
   ttl: 300
   type: CNAME
   value: 7c98ece8599e43dc.vercel-dns-017.com.
+link:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: CNAME
+  value: links2.resend-dns.com
+resend._domainkey:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: TXT
+  value: p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC82ClkFEW1xKUDkM1TEmamUIxI5kgVsJgEHXLNd2l2P3s0/wKb7xsHopYGXHqDmIA6ufkVfEyBpjE0TKxXa1KO2RLkvPzF4jzk21pBsHyIt4ACCS3RY8xRCtxa4Mya6Q2ppoCZ7uH9rv/8NyqddckiCtfnn/Hf9Lrv6J1nNydxTwIDAQAB
+rsend:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: CNAME
+  value: rsend-apne1.forge.rmta.net
+send:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: CNAME
+  value: send.forge.rmta.net
 oscdr:
   octodns:
     cloudflare:
@@ -48,3 +83,10 @@ ups:
   ttl: 300
   type: CNAME
   value: 6dac52fbc9570e71.vercel-dns-017.com.
+_dmarc:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: TXT
+  value: v=DMARC1; p=none;
