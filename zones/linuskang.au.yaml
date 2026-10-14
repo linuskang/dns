@@ -63,6 +63,15 @@ oscdr:
   ttl: 300
   type: CNAME
   value: d438d8c9327fecca.vercel-dns-017.com.
+play:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: NS
+  value:
+    - galileo.aternos.org.
+    - columbus.aternos.org.
 resend._domainkey:
   octodns:
     cloudflare:
