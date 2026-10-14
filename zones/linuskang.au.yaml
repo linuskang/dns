@@ -59,3 +59,10 @@ webhooks:
   ttl: 300
   type: CNAME
   value: b3b84ccaf4ac5997.vercel-dns-017.com.
+demo:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: CNAME
+  value: db9af7c752af7603.vercel-dns-017.com.
