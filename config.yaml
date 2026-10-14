@@ -1,0 +1,15 @@
+providers:
+  config:
+    class: octodns.provider.yaml.YamlProvider
+    directory: ./zones
+  
+  cloudflare:
+    class: octodns_cloudflare.CloudflareProvider
+    token: env/CLOUDFLARE_TOKEN
+
+zones:
+  linuskang.au.:
+    sources:
+      - config
+    targets:
+      - cloudflare
