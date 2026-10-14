@@ -55,6 +55,13 @@ link:
   ttl: 300
   type: CNAME
   value: links2.resend-dns.com
+oscdr:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: CNAME
+  value: d438d8c9327fecca.vercel-dns-017.com.
 resend._domainkey:
   octodns:
     cloudflare:
@@ -76,13 +83,6 @@ send:
   ttl: 300
   type: CNAME
   value: send.forge.rmta.net
-oscdr:
-  octodns:
-    cloudflare:
-      auto-ttl: true
-  ttl: 300
-  type: CNAME
-  value: d438d8c9327fecca.vercel-dns-017.com.
 ups:
   octodns:
     cloudflare:
