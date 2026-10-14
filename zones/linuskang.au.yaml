@@ -1,12 +1,18 @@
 ---
-? ''
-: octodns:
-    cloudflare:
-      auto-ttl: true
-      proxied: true
-  ttl: 300
-  type: ALIAS
-  value: linuskang.github.io.
+'':
+  - octodns:
+      cloudflare:
+        auto-ttl: true
+        proxied: true
+    ttl: 300
+    type: ALIAS
+    value: linuskang.github.io.
+  - octodns:
+      cloudflare:
+        auto-ttl: true
+    ttl: 300
+    type: TXT
+    value: "resend-domain-verification=7945aff0845879daa0c19abd657ad13c"
 _github-pages-challenge-linuskang:
   octodns:
     cloudflare:
