@@ -6,6 +6,8 @@ providers:
   cloudflare:
     class: octodns_cloudflare.CloudflareProvider
     token: env/CLOUDFLARE_TOKEN
+    update_pcent_threshold: 0.5
+    delete_pcent_threshold: 0.5
 
 zones:
   linuskang.au.:
