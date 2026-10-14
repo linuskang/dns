@@ -16,10 +16,11 @@
   - octodns:
       cloudflare:
         auto-ttl: true
-        priority: 10
     ttl: 300
     type: MX
-    value: inbound-smtp.ap-northeast-1.amazonaws.com
+    value: 
+      - preference: 10
+        exchange: inbound-smtp.ap-northeast-1.amazonaws.com
 _dmarc:
   octodns:
     cloudflare:
