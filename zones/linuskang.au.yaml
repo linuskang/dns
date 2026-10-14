@@ -19,8 +19,8 @@
     ttl: 300
     type: MX
     value: 
-      - preference: 10
-        exchange: inbound-smtp.ap-northeast-1.amazonaws.com
+      - exchange: inbound-smtp.ap-northeast-1.amazonaws.com
+        preference: 10
 _dmarc:
   octodns:
     cloudflare:
