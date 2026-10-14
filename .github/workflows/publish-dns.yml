@@ -1,5 +1,5 @@
 
-name: Sync DNS
+name: Publish DNS
 
 on:
   push:
