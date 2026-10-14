@@ -27,7 +27,7 @@ _dmarc:
       auto-ttl: true
   ttl: 300
   type: TXT
-  value: "v=DMARC1; p=none;"
+  value: "v=DMARC1\; p=none\;"
 _github-pages-challenge-linuskang:
   octodns:
     cloudflare:
