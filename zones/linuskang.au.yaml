@@ -62,7 +62,7 @@ music2piano:
       auto-ttl: true
       proxied: true
   ttl: 300
-  type: ALIAS
+  type: CNAME
   value: linuskang.github.io.
 oscdr:
   octodns:
