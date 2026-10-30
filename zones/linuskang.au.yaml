@@ -108,11 +108,3 @@ ups:
   ttl: 300
   type: CNAME
   value: 6dac52fbc9570e71.vercel-dns-017.com.
-w:
-  octodns:
-    cloudflare:
-      auto-ttl: true
-      proxied: true
-  ttl: 300
-  type: CNAME
-  value: linuskang.github.io.
