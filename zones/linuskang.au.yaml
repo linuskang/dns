@@ -115,3 +115,10 @@ ups:
   ttl: 300
   type: CNAME
   value: 6dac52fbc9570e71.vercel-dns-017.com.
+vps:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: AAAA
+  value: 2a01:4f9:3a:276e::1151
