@@ -42,6 +42,14 @@ demo:
   ttl: 300
   type: CNAME
   value: db9af7c752af7603.vercel-dns-017.com.
+dns:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a84dd956969d0edb.vercel-dns-017.com.
 forms:
   octodns:
     cloudflare:
