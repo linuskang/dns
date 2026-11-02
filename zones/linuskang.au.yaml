@@ -94,6 +94,13 @@ resend._domainkey:
   ttl: 300
   type: TXT
   value: p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC82ClkFEW1xKUDkM1TEmamUIxI5kgVsJgEHXLNd2l2P3s0/wKb7xsHopYGXHqDmIA6ufkVfEyBpjE0TKxXa1KO2RLkvPzF4jzk21pBsHyIt4ACCS3RY8xRCtxa4Mya6Q2ppoCZ7uH9rv/8NyqddckiCtfnn/Hf9Lrv6J1nNydxTwIDAQAB
+review:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: CNAME
+  value: 6a1625e526791fa0.vercel-dns-017.com.
 rsend:
   octodns:
     cloudflare:
