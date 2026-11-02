@@ -1,3 +1,8 @@
-# My DNS management
+# Linus's DNS
 
-This repository manages the dns for my domain, https://linuskang.au.
+This repository currently manages DNS for these domains:
+
+- ``linuskang.au``
+- ``lkang.au``
+
+To edit records, go to https://dns.linuskang.au - my management dashboard.
