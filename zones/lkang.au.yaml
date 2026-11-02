@@ -1,2 +1,2 @@
 ---
-{ '': { octodns: { cloudflare: { auto-ttl: true } }, ttl: 300, type: MX, value: { exchange: mx1.improvmx.com., preference: 10 } } }
+{ '': { octodns: { cloudflare: { auto-ttl: true } }, ttl: 300, type: MX, values: [ { exchange: mx1.improvmx.com., preference: 10 }, { exchange: mx2.improvmx.com., preference: 20 } ] } }
