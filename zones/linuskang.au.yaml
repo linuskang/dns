@@ -6,21 +6,21 @@
         proxied: true
     ttl: 300
     type: ALIAS
-    value: linuskang.github.io.
-  - octodns:
-      cloudflare:
-        auto-ttl: true
-    ttl: 300
-    type: TXT
-    value: "resend-domain-verification=7945aff0845879daa0c19abd657ad13c"
+    value: acc90ead6340c882.vercel-dns-017.com.
   - octodns:
       cloudflare:
         auto-ttl: true
     ttl: 300
     type: MX
     value:
-      - exchange: inbound-smtp.ap-northeast-1.amazonaws.com
-        preference: 10
+      exchange: inbound-smtp.ap-northeast-1.amazonaws.com.
+      preference: 10
+  - octodns:
+      cloudflare:
+        auto-ttl: true
+    ttl: 300
+    type: TXT
+    value: resend-domain-verification=7945aff0845879daa0c19abd657ad13c
 _dmarc:
   octodns:
     cloudflare:
