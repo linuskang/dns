@@ -129,3 +129,10 @@ vps:
   ttl: 300
   type: AAAA
   value: 2a01:4f9:3a:276e::1151
+www:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: CNAME
+  value: acc90ead6340c882.vercel-dns-017.com.
