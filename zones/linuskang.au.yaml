@@ -34,6 +34,13 @@ _github-pages-challenge-linuskang:
   ttl: 300
   type: TXT
   value: 70368ab98fba11c9f599f54ca6276f
+blog:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: CNAME
+  value: 72212735ffb037cb.vercel-dns-017.com.
 demo:
   octodns:
     cloudflare:
