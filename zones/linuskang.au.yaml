@@ -80,7 +80,6 @@ music2piano:
   octodns:
     cloudflare:
       auto-ttl: true
-      proxied: true
   ttl: 300
   type: CNAME
   value: linuskang.github.io.
