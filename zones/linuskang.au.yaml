@@ -55,6 +55,13 @@ dns:
   ttl: 300
   type: CNAME
   value: a84dd956969d0edb.vercel-dns-017.com.
+domain-history:
+  octodns:
+    cloudflare:
+      auto-ttl: true
+  ttl: 300
+  type: CNAME
+  value: linuskang.github.io.
 force-body-diagrams:
   octodns:
     cloudflare:
