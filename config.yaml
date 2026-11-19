@@ -10,6 +10,11 @@ providers:
     delete_pcent_threshold: 0.5
 
 zones:
+  linus.id.:
+    sources:
+      - config
+    targets:
+      - cloudflare
   linuskang.au.:
     sources:
       - config
