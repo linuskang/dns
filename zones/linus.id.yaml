@@ -1,2 +1,2 @@
 ---
-{}
+{ '': { octodns: { cloudflare: { auto-ttl: true } }, ttl: 300, type: ALIAS, value: acc90ead6340c882.vercel-dns-017.com. } }
